@@ -1,5 +1,5 @@
 # Discord Rich Presence | Electron App
-- Discord uygulaması için ElectronJS mimarsi ile kodlanılmış ve [`discord-rpc`](https://www.npmjs.com/package/discord-rpc) uygulaması ile hazırlanan Discord Rich Presence Uygulaması
+- Discord uygulaması için ElectronJS mimarsi ile kodlanılmış ve [`discord-rpc`](https://www.npmjs.com/package/discord-rpc) modülü ile hazırlanan Discord Rich Presence Uygulaması
 
 # Başlangıç | Ne işe yarar?
 - Discord Rich Presence Nedir? Ne işe yarar?
