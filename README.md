@@ -3,9 +3,11 @@
 
 # Başlangıç | Ne işe yarar?
 - Discord Rich Presence Nedir? Ne işe yarar?
+
 Discord Rich Presence, discord üzerindeki etkinliğinizi oyununuza, uygulamanıza veyahut kişisel kullanımınıza göre profil kısmınızda düzenleyebileceğiniz alandır.
-Basit bir örneği (Bu uygulamadan alıntı) şu şekildedir:
+Basit bir örneği (Bu uygulamadan alıntı) şu şekildedir:<br>
 ![rpc](https://user-images.githubusercontent.com/77791070/151698491-999bac2a-9834-4506-9042-5c0d4d1bb40e.PNG)
+
 
 # Başlangıç | Yapı
 - Uygulamanın yapısı ElectronJS ile kodlandı, Discord RPC bölümünü ise [`discord-rpc`](https://www.npmjs.com/package/discord-rpc) modülü ile yapılmıştır.
