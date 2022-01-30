@@ -19,6 +19,14 @@ npm start
 ```
 Komutlarını terminalinize girerseniz uygulama başlatılacaktır..
 
+# Derleme
+- Nasıl Executable (.exe) dosyaya çeviririm?
+Sırasyıla şu işlemleri yaparsanız,
+```
+npm install electron-packager -g
+electron-packager <uygulama-konumu> <uygulama ismi> --platform=win32 --arch=x64 --icon=<isteğe bağlı/ .ico dosyasının konumu>
+```
+
 # Önemli!!
 - Eğer ki discord uygulaması arka planda açık değilse uygulama çalışmayacaktır!
 
