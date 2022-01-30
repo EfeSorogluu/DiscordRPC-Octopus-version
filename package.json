@@ -8,6 +8,9 @@
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
+    "build:win": "electron-packager ./ octopustv-rpc --platform=win32 --arch=x64 --icon=src/public/img/octopus.ico",
+    "build:macos": "electron-packager ./ octopustv-rpc --platform=darwin --arch=x64 --icon=src/public/img/octopus.ico",
+    "build:linux": "electron-packager ./ octopustv-rpc --platform=linux --arch=x64 --icon=src/public/img/octopus.ico",
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
@@ -42,6 +45,7 @@
     }
   },
   "dependencies": {
+    "custom-electron-titlebar": "^4.0.1",
     "discord-rpc": "^4.0.1",
     "ejs-electron": "^2.1.1",
     "electron-squirrel-startup": "^1.0.0",
