@@ -33,7 +33,7 @@ electron-packager <uygulama-konumu> <uygulama ismi> --platform=win32 --arch=x64 
 - Derlenmiş uygulama bulunduğu klasörün içindeki dosyalar olmadan çalışamaz!
   
 # Discord arkaplanda açık fakat uygulama çalışmıyor?
-- Eğer discord arkaplanda açıksa ve uygulama çalışmıyor/işe yaramıyor ise yapmanız gereken işlemler sırasıyla:
+- Eğer discord arkaplanda açıksa ve uygulama çalışmıyor/işe yaramıyor ise tek yapmanız gereken işlem
 `rs` komutunu konsola girmek (Uygulama aktif bir şekildeyken!!) ve uygulamanın yeniden açılmasını beklemek. Bu işlem %98 ihtimalle işe yarayacaktır.
 
 
