@@ -20,16 +20,18 @@ npm start
 Komutlarını terminalinize girerseniz uygulama başlatılacaktır..
 
 # Derleme
-- Nasıl Executable (.exe) dosyaya çeviririm?
+- Nasıl Executable (.exe) dosyaya çeviririm?<br>
 Sırasyıla şu işlemleri yaparsanız,
 ```
 npm install electron-packager -g
 electron-packager <uygulama-konumu> <uygulama ismi> --platform=win32 --arch=x64 --icon=<isteğe bağlı/ .ico dosyasının konumu>
 ```
+ Derlenmiş uygulamanız `<uygulama-ismi>-win32-x64` adlı klasörün içine yerleştirilir.
 
 # Önemli!!
 - Eğer ki discord uygulaması arka planda açık değilse uygulama çalışmayacaktır!
-
+- Derlenmiş uygulama bulunduğu klasörün içindeki dosyalar olmadan çalışamaz!
+  
 # Discord arkaplanda açık fakat uygulama çalışmıyor?
 - Eğer discord arkaplanda açıksa ve uygulama çalışmıyor/işe yaramıyor ise yapmanız gereken işlemler sırasıyla:
 `rs` komutunu konsola girmek (Uygulama aktif bir şekildeyken!!) ve uygulamanın yeniden açılmasını beklemek. Bu işlem %98 ihtimalle işe yarayacaktır.
@@ -37,6 +39,7 @@ electron-packager <uygulama-konumu> <uygulama ismi> --platform=win32 --arch=x64 
 
 # Kaynaklar
 
-[`Discord-RPC`](https://www.npmjs.com/package/discord-rpc)
+[`Discord-RPC Modülü`](https://www.npmjs.com/package/discord-rpc)
 [`Electron-Forge`](https://github.com/electron-userland/electron-forge)
 [`DiscordJS RPC Dökümasyonu`](https://discord.js.org/#/docs/rpc/master/general/welcome)
+[`Electron Packager Modülü`](https://www.npmjs.com/package/electron-packager)
