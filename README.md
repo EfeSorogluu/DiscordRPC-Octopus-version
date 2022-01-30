@@ -20,13 +20,23 @@ npm start
 Komutlarını terminalinize girerseniz uygulama başlatılacaktır..
 
 # Derleme
-- Nasıl Executable (.exe) dosyaya çeviririm?<br>
-Sırasyıla şu işlemleri yaparsanız,
+- Nasıl Executable  dosyaya çeviririm?<br><br>
+Windows için Executable dosyaya çevirirken yapmanız gereken işlemler sırasıyla:
 ```
-npm install electron-packager -g
+npm i electron-packager -g
 npm run build:win
 ```
- Derlenmiş uygulamanız `<uygulama-ismi>-win32-x64` adlı klasörün içine yerleştirilir.
+Linux için Executable dosyaya çevirirken yapmanız gereken işlemler sırasıyla:
+```
+npm i electron-packager -g
+npm run build:linux
+```
+MacOS için Executable dosyaya çevirirken yapmanız gereken işlemler sırasıyla:
+```
+npm i electron-packager -g
+npm run build:macos
+```
+ Derlenmiş uygulamanız `<uygulama-ismi>-<linux/darwin(macos)/win32>-x64` adlı klasörün içine yerleştirilir.
 
 # Önemli!!
 - Eğer ki discord uygulaması arka planda açık değilse uygulama çalışmayacaktır!
