@@ -1,1 +1,3 @@
-# DiscordRPC-Octopus-version-
+# DiscordRPC Octopus version
+
+ Start with command: npm start
